@@ -1,6 +1,6 @@
 <?php
     /* 
-        Plugin Name: Infusionsoft Web Tracker
+        Plugin Name: Infusionsoft Analytics for WordPress
         Plugin URI: http://help.infusionsoft.com/tracker
         Description: Plugin for that injects the Web Tracking Code from the Infusionsoft into your Wordpress site.
         Author: Jordan Hatch - Infusionsoft
@@ -12,7 +12,7 @@
     }
     
     function infusionsoft_tracker_admin_actions() {  
-        add_options_page("Infusionsoft Tracker", "Infusionsoft Tracker", 1, "InfusionsoftTracker", "infusionsoft_tracker_admin");  
+        add_options_page("Infusionsoft Analytics", "Infusionsoft Analytics", 1, "InfusionsoftAnalytics", "infusionsoft_tracker_admin");  
     }
     
     
