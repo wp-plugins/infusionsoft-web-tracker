@@ -4,7 +4,7 @@
         Plugin URI: http://help.infusionsoft.com/tracker
         Description: Plugin for that injects the Web Tracking Code from the Infusionsoft into your Wordpress site.
         Author: Jordan Hatch - Infusionsoft
-        Version: 1.0 
+        Version: 1.1 
         Author URI: http://help.infusionsoft.com 
     */  
     function infusionsoft_tracker_admin() {

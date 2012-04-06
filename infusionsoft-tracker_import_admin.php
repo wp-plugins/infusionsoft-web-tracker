@@ -16,7 +16,7 @@ input.infusionWebTrackerInput{
 			// force to download a file #create connection    
 			$myApp = new iSDK;
 		    
-			if ($myApp->connectWithVars($appName, $apiKey, 't')) {
+			if ($myApp->connectWithVars($appName, $apiKey, 'i')) {
 			    
 			    update_option('infusionsoft_tracker_appName', $appName);
 			    update_option('infusionsoft_tracker_apiKey', $apiKey);
