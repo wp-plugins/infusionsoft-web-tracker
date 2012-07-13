@@ -49,19 +49,23 @@ input.infusionWebTrackerInput{
 <style>
     .panel{
 	background: #f6f6f6;
-	width: 300px;
-	height: 300px;
+	width: 280px;
+	height: 200px;
 	display: block;
 	float: left;
 	border: 2px groove #f6f6f6;
+	padding: 20px;
     }
     #about{
-	width: 600px;
-	
+	width: 598px;
+	display: block;
+	clear: both;
     }
 </style>
 <div class="wrap">
+    <img alt="Infusionsoft" src="http://help.infusionsoft.com/sites/all/themes/help_infusion12/logo.png">
     <?php    echo "<h2>" . __( 'Infusionsoft Analytics for WordPress', 'infusionsoft_tracker_trdom' ) . "</h2>"; ?>
+    <p>Infusionsoft Analytics for WordPress inserts the web tracking code from your Infusionsoft application into your WordPress site.  This is the only officially supported plugin for WordPress that does this.</p>
     <div class="panel" id="apiPanel">
 	<h3>Enter Your API Details</h3>		
 	<form name="infusionsoft_tracker_form" method="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>">
@@ -77,10 +81,15 @@ input.infusionWebTrackerInput{
     </div>
     <div class="panel" id="video">
 	<h3>Need Help?</h3>
+	<p>Check out this article in the Infusionsoft User Guide:</p>
+	<a href="http://ug.infusionsoft.com/article/AA-01117/178/Marketing/Web-Tracking-Analytics/How-do-I-add-the-Infusionsoft-tracking-code-to-a-WordPress-website.html" target="_blank">Click here for more info</a>
+	<p>Check out this article if you need help getting your API Key</p>
+	<a href="http://ug.infusionsoft.com/article/AA-00442/0" target="_blank">Click here for more info</a>
     </div>
     <div class="panel" id="about">
 	<h3>What is Infusionsoft Analytics?</h3>
-	<p>See how many people are visiting your site, what pages they are visiting and for how long - All from within your Infusionsoft application.</p>
+	<p>Infusionsoft's Web Analytics allows you to keep tabs on the online actions of individual visitors. You can also track their online activity to get a comprehensive view of their interests and online behaviors.</p>
+	<p>It also allows you to gather data about how individual pages on your site are performing. Once you know what's working and what's not, you can optimize your website to increase conversions. </p>
 	<p>When people opt-in, a complete history of the pages they've visited on your site will be tied to their contact record.</p>
     </div>
     
