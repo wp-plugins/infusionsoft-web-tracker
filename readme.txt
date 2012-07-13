@@ -5,7 +5,7 @@ Requires at least: 2.0.2
 Tested up to: 2.1
 Stable tag: 1.1
 
-Infusionsoft Analytics for WordPress is a plugin to inject the Infusionsoft Web Tracking script into every page on your website, without having to edit your theme.
+The official plugin for Infusionsoft Users.  Infusionsoft Analytics for WordPress is a plugin to inject the Infusionsoft Web Tracking script into every page on your website, without having to edit your theme.
 
 == Description ==
 
