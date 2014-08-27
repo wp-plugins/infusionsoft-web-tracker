@@ -12,7 +12,7 @@ input.infusionWebTrackerInput{
 			$apiKey = $_POST['infusionsoft_tracker_apiKey'];
 			$appName = $_POST['infusionsoft_tracker_appName'];
 			//Test Connection
-			include 'isdk.php';
+			require_once('isdk.php');
 			// force to download a file #create connection    
 			$myApp = new iSDK;
 		    

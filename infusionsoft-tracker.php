@@ -12,7 +12,7 @@
     }
     
     function infusionsoft_tracker_admin_actions() {  
-        add_options_page("Infusionsoft Analytics", "Infusionsoft Analytics", 1, "InfusionsoftAnalytics", "infusionsoft_tracker_admin");  
+        add_options_page("Infusionsoft Analytics", "Infusionsoft Analytics", 'install_plugins', "InfusionsoftAnalytics", "infusionsoft_tracker_admin");  
     }
     
     
