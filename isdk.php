@@ -6,7 +6,9 @@
 #########           Version 1.7.7                                #########
 ##########################################################################
 
-include("xmlrpc-3.0/lib/xmlrpc.inc");
+if(!function_exists('xmlrpc_encode_entitites') && !class_exists('xmlrpcresp')) {
+    include("xmlrpc-3.0/lib/xmlrpc.inc");
+}
 
 class iSDK {
 ////////////////////////////////
